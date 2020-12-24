@@ -3,7 +3,7 @@ body {
   font-size: 14px;
   font-weight: 400;
 
-  margin: 0;
+  margin: 0 auto;
   background-color: #ffffff;
   max-width: 768px;
 }
@@ -58,7 +58,7 @@ body {
 /*======== Inner bloks =======*/
 .inner-block {
   margin: 5px;
-  padding: 15px;
+  padding: 101px 15px 15px;
 
   min-height: 155px;
   display: flex;
@@ -122,9 +122,7 @@ body {
 
 .dark-grey-right1__inner,
 .dark-grey-right2__inner {
-  padding: 101px 15px 15px;
   background: #a2a9b7;
-
   display: flex;
   align-items: flex-end;
 }
@@ -176,24 +174,73 @@ body {
   align-items: flex-end;
 }
 
+/* ===== picture ======*/
 .sheep-picture {
-  width: 100%;
+  /* width: 100%; */
 }
 
 .sheep-picture__inner {
   padding: 0;
 }
 
+.sheep-picture__img:hover {
+  filter: blur(3px); /* Размытие */
+  cursor: pointer;
+  z-index: 1;
+}
+
 .sheep-picture__img {
-  display: block;
+  position: relative;
   width: 100%;
   height: auto;
-  filter: blur(0); /* Размытие */
-  transition: filter 1s linear;
+  filter: blur(0);
+  transition: filter 0.1s linear;
+  z-index: 3;
 }
 
 .sheep-picture__text {
-  position: relative;
-  left: -100%;
-  padding: 15px;
+  position: absolute;
+  padding: 101px 15px 15px;
+}
+
+.sheep-picture__simbol {
+  position: absolute;
+  margin: 90px;
+
+  background-color: #ffffff;
+  width: 61px;
+  height: 61px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42px;
+  color: #f55e62;
+}
+
+/*====== orange red purple =====*/
+.pink-block1,
+.pink-block2,
+.pink-block3,
+.red-block,
+.purple-block {
+  width: 100%;
+}
+
+.pink-block1__inner,
+.pink-block2__inner,
+.pink-block3__inner {
+  background-color: #ffaa87;
+}
+
+.red-block__inner {
+  background-color: #f55e62;
+}
+
+.purple-block__inner {
+  background-color: #c7abd4;
 }
