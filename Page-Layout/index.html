@@ -7,6 +7,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <meta name="viewport" content="width=device-width, initial-scale =1" />
     <title>idem page layout</title>
   </head>
   <body>
@@ -18,36 +19,38 @@
     <!-- Main-Container -->
     <div class="container-main">
       <!-- Dark gray blocks -->
-      <div class="container-2-3">
-        <div class="dark-grey-left">
-          <div class="inner-square dark-grey-left__inner">
-            <p class="dark-gray-left__text">
-              Гений непредвзято понимает под собой конфликт. Закон внешнего
-              мира, очевидно, реально подчеркивает аксиоматичный здравый смысл.
-              Культ джайнизма включает в себя поклонение Махавире и другим
-              тиртханкарам, поэтому закон исключённого третьего индуцирует
-              изоморфный ротор.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="container-1-3">
-        <div class="dark-grey-right1">
-          <div class="inner-square dark-grey-right1__inner">
-            <p class="white-color-text">Чувство однократно</p>
+      <div class="container container-dark-gray-blocks">
+        <div class="container container-2-3">
+          <div class="dark-grey-block1">
+            <div class="inner-square dark-grey-block1__inner">
+              <p class="dark-gray-block1__text">
+                Гений непредвзято понимает под собой конфликт. Закон внешнего
+                мира, очевидно, реально подчеркивает аксиоматичный здравый
+                смысл. Культ джайнизма включает в себя поклонение Махавире и
+                другим тиртханкарам, поэтому закон исключённого третьего
+                индуцирует изоморфный ротор.
+              </p>
+            </div>
           </div>
         </div>
 
-        <div class="dark-grey-right2">
-          <div class="inner-square dark-grey-right2__inner">
-            <p class="white-color-text">Морено</p>
+        <div class="container container-1-3">
+          <div class="dark-grey-block2">
+            <div class="inner-square dark-grey-block2__inner">
+              <p class="white-color-text">Чувство однократно</p>
+            </div>
+          </div>
+
+          <div class="dark-grey-block3">
+            <div class="inner-square dark-grey-block3__inner">
+              <p class="white-color-text">Морено</p>
+            </div>
           </div>
         </div>
       </div>
 
       <!-- Light-gray-blocks -->
-      <div class="container-2-3">
+      <div class="container container-light-gray-blocks">
         <div class="light-gray-block1">
           <div class="inner-block light-gray-block1__inner">
             <p class="black-color-text">Наши сотрудники</p>
@@ -67,8 +70,8 @@
         </div>
       </div>
 
-      <!-- Blue-orange-block -->
-      <div class="container-1-3">
+      <!-- Blue & orange-blocks -->
+      <div class="container container-blue-orange-blocks">
         <div class="blue-block">
           <div class="inner-block blue-block__inner">
             <p class="black-color-text">Интроекция</p>
@@ -82,52 +85,90 @@
         </div>
       </div>
 
-      <!-- Green-blocks -->
-      <div class="container-1-3">
-        <div class="green-block1">
-          <div class="inner-square green-block1__inner">
-            <p class="black-color-text">
-              Понятие модернизации понимает механизм власти
-            </p>
+      <!-- Green & sheep blocks-->
+      <div class="container container-green-blocks">
+        <div class="container container-1-3">
+          <!-- Green block-->
+          <div class="green-block1">
+            <div class="inner-square green-block1__inner">
+              <p class="black-color-text">
+                Понятие модернизации понимает механизм власти
+              </p>
+            </div>
+          </div>
+
+          <!-- Sheep block-->
+          <div class="sheep-picture-block">
+            <div class="inner-square sheep-picture-block__inner">
+              <img
+                class="sheep-picture-block__img"
+                src="img/sheep.png"
+                alt=""
+              />
+              <p class="white-color-text sheep-picture-block__text">
+                Наши сотрудники
+              </p>
+              <div class="sheep-picture-block__simbol">!</div>
+            </div>
           </div>
         </div>
 
-        <div class="sheep-picture">
-          <div class="inner-block sheep-picture__inner">
-            <img class="sheep-picture__img" src="img/sheep.png" alt="" />
-            <p class="white-color-text sheep-picture__text">Наши сотрудники</p>
-            <div class="sheep-picture__simbol">!</div>
+        <!-- Green-block2-->
+        <div class="container container-2-3">
+          <div class="green-block2">
+            <div class="inner-square green-block2__inner">
+              <div class="green-block2__inner__param">
+                <div class="green-block2__inner__param__prop">Фамилия</div>
+                <div class="green-block2__inner__param__dots"></div>
+                <div class="green-block2__inner__param__value">Мамай</div>
+              </div>
+
+              <div class="green-block2__inner__param">
+                <div class="green-block2__inner__param__prop">
+                  Имя и отчество
+                </div>
+                <div class="green-block2__inner__param__dots"></div>
+                <div class="green-block2__inner__param__value">
+                  Станиславаленина Владимировна
+                </div>
+              </div>
+
+              <div class="green-block2__inner__param">
+                <div class="green-block2__inner__param__prop">
+                  Номер полиса выдан заведомо ложный
+                </div>
+                <div class="green-block2__inner__param__dots"></div>
+                <div class="green-block2__inner__param__value">01354879</div>
+              </div>
+
+              <div class="green-block2__inner__param">
+                <div class="green-block2__inner__param__prop">
+                  Дата рождения
+                </div>
+                <div class="green-block2__inner__param__dots"></div>
+                <div class="green-block2__inner__param__value">01.12.1976</div>
+              </div>
+
+              <div class="green-block2__inner__param">
+                <div class="green-block2__inner__param__prop">Телефон</div>
+                <div class="green-block2__inner__param__dots"></div>
+                <div class="green-block2__inner__param__value">
+                  +79254218069
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="container-2-3">
-        <div class="green-block2">
-          <div class="inner-square green-block2__inner">
-            <p>123</p>
-            <p>123</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Orange -->
-      <div class="container-1-3">
+      <!-- Pink & red blocks-->
+      <div class="container container-pink-red-blocks">
         <div class="pink-block1">
           <div class="inner-block pink-block1__inner">
             <p class="black-color-text">Лидерство</p>
           </div>
         </div>
-      </div>
 
-      <div class="container-2-3">
-        <div class="pink-block2">
-          <div class="inner-block pink-block2__inner">
-            <p class="black-color-text">Однако</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="container-1-3">
         <div class="red-block">
           <div class="inner-block red-block__inner">
             <p class="black-color-text">Невероятный гений</p>
@@ -135,15 +176,20 @@
         </div>
       </div>
 
-      <div class="container-1-3">
+      <!-- Pinks & purple blocks-->
+      <div class="container container-pinks-purple-blocks">
+        <div class="pink-block2">
+          <div class="inner-block pink-block2__inner">
+            <p class="black-color-text">Однако</p>
+          </div>
+        </div>
+
         <div class="pink-block3">
           <div class="inner-block pink-block3__inner">
             <p class="black-color-text">Точка перегиба</p>
           </div>
         </div>
-      </div>
 
-      <div class="container-1-3">
         <div class="purple-block">
           <div class="inner-block purple-block__inner">
             <p class="black-color-text">Точка перегиба</p>
