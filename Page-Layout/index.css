@@ -5,7 +5,7 @@ body {
 
   margin: 0 auto;
   max-width: 768px;
-  min-width: 50%;
+  min-width: 320px;
   background-color: #ffffff;
 }
 
@@ -130,10 +130,12 @@ body {
 
 /*===== Dark gray blocks =====*/
 
-.dark-grey-block1 {
+.dark-grey-block1,
+.dark-grey-block2,
+.dark-grey-block3 {
   position: relative;
-  padding-top: 100%;
   width: 100%;
+  padding-top: 100%;
 }
 
 .dark-grey-block1__inner {
@@ -148,13 +150,6 @@ body {
   text-align: center;
   margin: 0;
   padding: 30px 46px 53px 25px;
-}
-
-.dark-grey-block2,
-.dark-grey-block3 {
-  position: relative;
-  padding-top: 100%;
-  width: 100%;
 }
 
 .dark-grey-block2__inner,
